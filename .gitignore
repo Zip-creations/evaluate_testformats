@@ -1,0 +1,6 @@
+.direnv/
+
+#vs code
+.vscode/
+.idea/
+*.code-workspace
