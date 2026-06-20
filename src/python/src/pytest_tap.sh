@@ -1,1 +1,1 @@
-python3 -m pytest "./test/test.py" --tap-files --tap-outdir out
+python3 -m pytest "./test/test.py" "./test/test2.py" --tap-files --tap-outdir out

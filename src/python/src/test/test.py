@@ -9,3 +9,6 @@ def test_pos():
 @pytest.mark.skip(reason="this test will be skipped, to show how skipped tests are handled")
 def test_skip():
     assert True
+
+def test_same_name():
+    assert True
