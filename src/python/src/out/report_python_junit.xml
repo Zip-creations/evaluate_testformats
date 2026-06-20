@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="5" time="0.106" timestamp="2026-06-20T19:23:10.464725+02:00" hostname="LaptopRuben"><testcase classname="test.test" name="test_neg" time="0.003" /><testcase classname="test.test" name="test_pos" time="0.001"><failure message="assert False">def test_pos():
-&gt;       assert False
-E       assert False
-
-test/test.py:7: AssertionError</failure></testcase><testcase classname="test.test" name="test_skip" time="0.000"><skipped type="pytest.skip" message="this test will be skipped, to show how skipped tests are handled">/home/ruben/dev/evaluate_testformats/src/python/src/test/test.py:9: this test will be skipped, to show how skipped tests are handled</skipped></testcase><testcase classname="test.test" name="test_same_name" time="0.001" /><testcase classname="test.test2" name="test_same_name" time="0.001" /></testsuite></testsuites>
