@@ -1,0 +1,1 @@
+python3 -m pytest "./test/test.py" "./test/test2.py" --html="out/report_pytest.html"

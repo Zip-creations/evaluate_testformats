@@ -1,0 +1,1 @@
+python3 -m pytest "./test/test.py" "./test/test2.py"  --json-report --json-report-file="out/report_pytest_json.json"
