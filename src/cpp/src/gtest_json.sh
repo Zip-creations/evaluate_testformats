@@ -9,4 +9,4 @@ g++ -std=c++17 "./test"/*.cpp \
   -lgtest -lgtest_main -pthread \
   -o "$BINARY"
 
-"$BINARY" --gtest_output="xml:./out/report_gtest_junit.xml"
+"$BINARY" --gtest_output="json:./out/report_gtest.json"

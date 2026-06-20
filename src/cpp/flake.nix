@@ -16,6 +16,7 @@
     devShells.x86_64-linux.default = pkgs.mkShell {
       buildInputs = [
         pkgs.gcc
+        pkgs.cmake
         pkgs.gtest
         pkgs.catch2
       ];
