@@ -20,6 +20,7 @@
           ps.pytest-tap
           ps.pytest-json-report
           ps.pytest-html
+          ps.unittest-xml-reporting
         ]))
       ];
     };

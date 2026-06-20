@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test2.TestBasic-20260620211557" tests="1" file="test2.py" time="0.001" timestamp="2026-06-20T21:15:57" failures="0" errors="0" skipped="0">
+	<testcase classname="test2.TestBasic" name="test_same_name" time="0.001" timestamp="2026-06-20T21:15:57" file="test/unittest/test2.py" line="5"/>
+</testsuite>
