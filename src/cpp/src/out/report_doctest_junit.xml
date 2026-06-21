@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="./build/doctest_tests" errors="0" failures="1" tests="4" time="0" timestamp="2026-06-21T15:45:26Z" doctest_version="2.5.0">
+    <testcase classname="./test/doctest/test.cpp" name="test_neg" time="0" status="run"/>
+    <testcase classname="./test/doctest/test.cpp" name="test_pos" time="0" status="run">
+      <failure message="false" type="CHECK">
+./test/doctest/test.cpp:8:
+\x1B[0;36mCHECK( false ) \x1B[0mis NOT correct!
+  values: CHECK( false )
+
+      </failure>
+    </testcase>
+    <testcase classname="./test/doctest/test.cpp" name="test_same_name" time="0" status="run"/>
+    <testcase classname="./test/doctest/test2.cpp" name="test_same_name" time="0" status="run"/>
+  </testsuite>
+</testsuites>

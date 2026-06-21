@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="catch2_tests" errors="0" failures="1" skipped="0" tests="3" hostname="tbd" time="0.000" timestamp="2026-06-21T15:51:44Z">
+    <properties>
+      <property name="random-seed" value="1812529463"/>
+    </properties>
+    <testcase classname="catch2_tests.global" name="test_neg" time="0.000" status="run"/>
+    <testcase classname="catch2_tests.global" name="test_pos" time="0.000" status="run">
+      <failure message="false" type="REQUIRE">
+FAILED:
+  REQUIRE( false )
+at ./test/catch2/test.cpp:8
+      </failure>
+    </testcase>
+    <testcase classname="catch2_tests.global" name="test_same_name" time="0.000" status="run"/>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+# rng-seed: 1601965405
+# test_pos
+not ok 1 - false
+# test_neg
+ok 2 - true
+# test_same_name
+ok 3 - true
+1..3
+

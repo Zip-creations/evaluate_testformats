@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Catch2TestRun name="catch2_tests" rng-seed="2257873595" xml-format-version="3" catch2-version="3.14.0">
+  <TestCase name="test_pos" tags="[basic]" filename="./test/catch2/test.cpp" line="7">
+    <Expression success="false" type="REQUIRE" filename="./test/catch2/test.cpp" line="8">
+      <Original>
+        false
+      </Original>
+      <Expanded>
+        false
+      </Expanded>
+    </Expression>
+    <OverallResult success="false" skips="0"/>
+  </TestCase>
+  <TestCase name="test_neg" tags="[basic]" filename="./test/catch2/test.cpp" line="3">
+    <OverallResult success="true" skips="0"/>
+  </TestCase>
+  <TestCase name="test_same_name" tags="[basic]" filename="./test/catch2/test2.cpp" line="3">
+    <OverallResult success="true" skips="0"/>
+  </TestCase>
+  <OverallResults successes="2" failures="1" expectedFailures="0" skips="0"/>
+  <OverallResultsCases successes="2" failures="1" expectedFailures="0" skips="0"/>
+</Catch2TestRun>
