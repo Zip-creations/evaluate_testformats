@@ -4,6 +4,7 @@ import Test.Tasty
 import Test.Tasty.QuickCheck
 import Test.Tasty.ExpectedFailure
 import Test.Tasty.Runners.AntXML
+import Test.Tasty.Runners.TAP
 
 prop_neg :: Bool
 prop_neg = True
@@ -30,4 +31,4 @@ tests =
 
 main :: IO ()
 main =
-  defaultMainWithIngredients [antXMLRunner] tests
+  defaultMainWithIngredients [antXMLRunner, tapRunner] tests

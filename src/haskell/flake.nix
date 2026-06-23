@@ -18,6 +18,7 @@
         hp.tasty-quickcheck
         hp.tasty-expected-failure
         hp.tasty-ant-xml
+        hp.tasty-tap
       ]);
     in {
       devShells.${system}.default = pkgs.mkShell {
