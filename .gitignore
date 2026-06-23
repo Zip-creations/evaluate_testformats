@@ -12,3 +12,7 @@ __pycache__/
 
 #cpp
 build/
+
+#haskell
+*.hi
+*.o

@@ -5,19 +5,26 @@
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
-  outputs = { self, nixpkgs }: 
-    let pkgs = import nixpkgs { system = "x86_64-linux"; config.allowUnfree = true; };
-    in
-  {
-    packages.x86_64-linux.hello = nixpkgs.legacyPackages.x86_64-linux.hello;
+  outputs = { self, nixpkgs }:
+    let
+      system = "x86_64-linux";
+      pkgs = import nixpkgs {
+        inherit system;
+      };
 
-    packages.x86_64-linux.default = self.packages.x86_64-linux.hello;
-
-    devShells.x86_64-linux.default = pkgs.mkShell {
-      buildInputs = [
-        pkgs.ghc
-        pkgs.cabal-install
-      ];
+      ghcWithPkgs = pkgs.haskellPackages.ghcWithPackages (hp: [
+        hp.QuickCheck
+        hp.tasty
+        hp.tasty-quickcheck
+        hp.tasty-expected-failure
+        hp.tasty-ant-xml
+      ]);
+    in {
+      devShells.${system}.default = pkgs.mkShell {
+        buildInputs = [
+          ghcWithPkgs
+          pkgs.cabal-install
+        ];
+      };
     };
-  };
 }

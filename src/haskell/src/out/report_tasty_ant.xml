@@ -1,0 +1,2 @@
+<?xml version='1.0' ?><testsuites errors="0" failures="1" tests="4" time="0.000"><testsuite name="BasicTests" tests="4"><testcase name="test_neg" time="0.000" classname="BasicTests" /><testcase name="test_pos" time="0.000" classname="BasicTests"><failure>*** Failed! Falsified (after 1 test):
+Use --quickcheck-replay=&quot;(SMGen 1962292553600559789 6483623995001995203,0)&quot; to reproduce.</failure></testcase><testcase name="test_skip" time="0.000" classname="BasicTests" /><testcase name="test_same_name" time="0.000" classname="BasicTests" /></testsuite></testsuites>
