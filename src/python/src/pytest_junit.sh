@@ -1,1 +1,1 @@
-python3 -m pytest "./test/test.py" "./test/test2.py" --junit-xml="out/pytest/report_pytest_junit.xml"
+python3 -m pytest "./test/pytest/test.py" "./test/pytest/test2.py" --junit-xml="out/pytest/report_pytest_junit.xml"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="./build/doctest_tests" errors="0" failures="1" tests="4" time="0" timestamp="2026-06-21T15:45:26Z" doctest_version="2.5.0">
+  <testsuite name="./build/doctest_tests" errors="0" failures="1" tests="4" time="0" timestamp="2026-06-23T20:50:29Z" doctest_version="2.5.0">
     <testcase classname="./test/doctest/test.cpp" name="test_neg" time="0" status="run"/>
     <testcase classname="./test/doctest/test.cpp" name="test_pos" time="0" status="run">
       <failure message="false" type="CHECK">

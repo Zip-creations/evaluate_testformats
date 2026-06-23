@@ -1,1 +1,1 @@
-python3 -m pytest "./test/test.py" "./test/test2.py" --html="out/pytest/report_pytest.html"
+python3 -m pytest "./test/pytest/test.py" "./test/pytest/test2.py" --html="out/pytest/report_pytest.html"

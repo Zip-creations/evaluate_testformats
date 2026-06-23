@@ -1,0 +1,17 @@
+# TAP results for test/pytest/test.py
+ok 1 test/pytest/test.py::test_neg
+not ok 2 test/pytest/test.py::test_pos
+# def test_pos():
+# >       assert False
+# E       assert False
+# 
+# test/pytest/test.py:7: AssertionError
+# --- Captured Log ---
+# 
+# --- Captured Out ---
+# 
+# --- Captured Err ---
+#
+ok 3 test/pytest/test.py::test_skip # SKIP this test will be skipped, to show how skipped tests are handled
+ok 4 test/pytest/test.py::test_same_name
+1..4

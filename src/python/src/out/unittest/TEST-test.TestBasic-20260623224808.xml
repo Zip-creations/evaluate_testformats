@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.TestBasic-20260623224808" tests="4" file="test.py" time="0.001" timestamp="2026-06-23T22:48:08" failures="1" errors="0" skipped="1">
+	<testcase classname="test.TestBasic" name="test_neg" time="0.000" timestamp="2026-06-23T22:48:08" file="test/unittest/test.py" line="6"/>
+	<testcase classname="test.TestBasic" name="test_same_name" time="0.000" timestamp="2026-06-23T22:48:08" file="test/unittest/test.py" line="16"/>
+	<testcase classname="test.TestBasic" name="test_pos" time="0.000" timestamp="2026-06-23T22:48:08" file="test/unittest/test.py" line="9">
+		<failure type="AssertionError" message="False is not true"><![CDATA[Traceback (most recent call last):
+  File "/home/ruben/dev/bachelor/project/testformat_evaluation/src/python/src/test/unittest/test.py", line 10, in test_pos
+    self.assertTrue(False)
+    ~~~~~~~~~~~~~~~^^^^^^^
+AssertionError: False is not true
+]]></failure>
+	</testcase>
+	<testcase classname="test.TestBasic" name="test_skip" time="0.000" timestamp="2026-06-23T22:48:08" file="test/unittest/test.py" line="12">
+		<skipped type="skip" message="this test will be skipped, to show how skipped tests are handled"/>
+	</testcase>
+</testsuite>

@@ -3,7 +3,7 @@
   "failures": 1,
   "disabled": 0,
   "errors": 0,
-  "timestamp": "2026-06-20T20:02:31Z",
+  "timestamp": "2026-06-23T22:50:33Z",
   "time": "0s",
   "name": "AllTests",
   "testsuites": [
@@ -13,57 +13,57 @@
       "failures": 1,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2026-06-20T20:02:31Z",
+      "timestamp": "2026-06-23T22:50:33Z",
       "time": "0s",
       "testsuite": [
         {
           "name": "test_neg",
-          "file": ".\/test\/test.cpp",
+          "file": ".\/test\/gtest\/test.cpp",
           "line": 3,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2026-06-20T20:02:31Z",
+          "timestamp": "2026-06-23T22:50:33Z",
           "time": "0s",
           "classname": "BasicTests"
         },
         {
           "name": "test_pos",
-          "file": ".\/test\/test.cpp",
+          "file": ".\/test\/gtest\/test.cpp",
           "line": 7,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2026-06-20T20:02:31Z",
+          "timestamp": "2026-06-23T22:50:33Z",
           "time": "0s",
           "classname": "BasicTests",
           "failures": [
             {
-              "failure": ".\/test\/test.cpp:8\nValue of: false\n  Actual: false\nExpected: true\n",
+              "failure": ".\/test\/gtest\/test.cpp:8\nValue of: false\n  Actual: false\nExpected: true\n",
               "type": ""
             }
           ]
         },
         {
           "name": "test_skip",
-          "file": ".\/test\/test.cpp",
+          "file": ".\/test\/gtest\/test.cpp",
           "line": 11,
           "status": "RUN",
           "result": "SKIPPED",
-          "timestamp": "2026-06-20T20:02:31Z",
+          "timestamp": "2026-06-23T22:50:33Z",
           "time": "0s",
           "classname": "BasicTests",
           "skipped": [
             {
-              "message": ".\/test\/test.cpp:12\nthis test will be skipped, to show how skipped tests are handled\n"
+              "message": ".\/test\/gtest\/test.cpp:12\nthis test will be skipped, to show how skipped tests are handled\n"
             }
           ]
         },
         {
           "name": "test_same_name",
-          "file": ".\/test\/test2.cpp",
+          "file": ".\/test\/gtest\/test2.cpp",
           "line": 4,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2026-06-20T20:02:31Z",
+          "timestamp": "2026-06-23T22:50:33Z",
           "time": "0s",
           "classname": "BasicTests"
         }

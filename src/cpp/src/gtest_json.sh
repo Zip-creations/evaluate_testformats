@@ -5,7 +5,7 @@ BINARY="./build/build_tests"
 
 mkdir -p "./build" "./out"
 
-g++ -std=c++17 "./test"/*.cpp \
+g++ -std=c++17 "./test/gtest"/*.cpp \
   -lgtest -lgtest_main -pthread \
   -o "$BINARY"
 

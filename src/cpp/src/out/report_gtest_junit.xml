@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="1" disabled="0" errors="0" time="0." timestamp="2026-06-20T20:02:45.978" name="AllTests">
-  <testsuite name="BasicTests" tests="4" failures="1" disabled="0" skipped="1" errors="0" time="0." timestamp="2026-06-20T20:02:45.978">
-    <testcase name="test_neg" file="./test/test.cpp" line="3" status="run" result="completed" time="0." timestamp="2026-06-20T20:02:45.978" classname="BasicTests" />
-    <testcase name="test_pos" file="./test/test.cpp" line="7" status="run" result="completed" time="0." timestamp="2026-06-20T20:02:45.978" classname="BasicTests">
-      <failure message="./test/test.cpp:8&#x0A;Value of: false&#x0A;  Actual: false&#x0A;Expected: true&#x0A;" type=""><![CDATA[./test/test.cpp:8
+<testsuites tests="4" failures="1" disabled="0" errors="0" time="0." timestamp="2026-06-23T22:50:35.285" name="AllTests">
+  <testsuite name="BasicTests" tests="4" failures="1" disabled="0" skipped="1" errors="0" time="0." timestamp="2026-06-23T22:50:35.285">
+    <testcase name="test_neg" file="./test/gtest/test.cpp" line="3" status="run" result="completed" time="0." timestamp="2026-06-23T22:50:35.285" classname="BasicTests" />
+    <testcase name="test_pos" file="./test/gtest/test.cpp" line="7" status="run" result="completed" time="0." timestamp="2026-06-23T22:50:35.285" classname="BasicTests">
+      <failure message="./test/gtest/test.cpp:8&#x0A;Value of: false&#x0A;  Actual: false&#x0A;Expected: true&#x0A;" type=""><![CDATA[./test/gtest/test.cpp:8
 Value of: false
   Actual: false
 Expected: true
 ]]></failure>
     </testcase>
-    <testcase name="test_skip" file="./test/test.cpp" line="11" status="run" result="skipped" time="0." timestamp="2026-06-20T20:02:45.978" classname="BasicTests">
-      <skipped message="./test/test.cpp:12&#x0A;this test will be skipped, to show how skipped tests are handled&#x0A;"><![CDATA[./test/test.cpp:12
+    <testcase name="test_skip" file="./test/gtest/test.cpp" line="11" status="run" result="skipped" time="0." timestamp="2026-06-23T22:50:35.285" classname="BasicTests">
+      <skipped message="./test/gtest/test.cpp:12&#x0A;this test will be skipped, to show how skipped tests are handled&#x0A;"><![CDATA[./test/gtest/test.cpp:12
 this test will be skipped, to show how skipped tests are handled
 ]]></skipped>
     </testcase>
-    <testcase name="test_same_name" file="./test/test2.cpp" line="4" status="run" result="completed" time="0." timestamp="2026-06-20T20:02:45.978" classname="BasicTests" />
+    <testcase name="test_same_name" file="./test/gtest/test2.cpp" line="4" status="run" result="completed" time="0." timestamp="2026-06-23T22:50:35.285" classname="BasicTests" />
   </testsuite>
 </testsuites>
