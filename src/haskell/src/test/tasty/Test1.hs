@@ -21,6 +21,7 @@ tests1 =
   testGroup "Test1"
     [ testProperty "test_neg" prop_neg
     , testProperty "test_pos" prop_pos
+    -- tasty has no "real" skipping mechanism. Therefore, this testcase will be threaten as successfull by the output formats
     , ignoreTestBecause
         "this test will be skipped, to show how skipped tests are handled"
         (testProperty "test_skip" prop_skip)
