@@ -31,4 +31,5 @@ tests =
 
 main :: IO ()
 main =
+  -- tasty-test-reporter is marked as broken
   defaultMainWithIngredients [antXMLRunner, tapRunner] tests

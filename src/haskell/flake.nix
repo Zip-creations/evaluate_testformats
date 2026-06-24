@@ -19,6 +19,8 @@
         hp.tasty-expected-failure
         hp.tasty-ant-xml
         hp.tasty-tap
+        hp.hspec
+        hp.hspec-junit-formatter
       ]);
     in {
       devShells.${system}.default = pkgs.mkShell {
