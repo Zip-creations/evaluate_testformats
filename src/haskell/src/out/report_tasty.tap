@@ -1,11 +1,13 @@
 TAP version 13
-1..4
-ok 1 - BasicTests.test_neg
+1..5
+ok 1 - AllTests.Test1.test_neg
 # +++ OK, passed 100 tests.
-not ok 2 - BasicTests.test_pos
+not ok 2 - AllTests.Test1.test_pos
 # *** Failed! Falsified (after 1 test):
-# Use --quickcheck-replay="(SMGen 14148039196634761482 13633461195023909311,0)" to reproduce.
-ok 3 - BasicTests.test_skip
+# Use --quickcheck-replay="(SMGen 16178669717560123975 2251508060731207043,0)" to reproduce.
+ok 3 - AllTests.Test1.test_skip
 # this test will be skipped, to show how skipped tests are handled
-ok 4 - BasicTests.test_same_name
+ok 4 - AllTests.Test1.test_same_name
+# +++ OK, passed 100 tests.
+ok 5 - AllTests.Test2.test_same_name
 # +++ OK, passed 100 tests.

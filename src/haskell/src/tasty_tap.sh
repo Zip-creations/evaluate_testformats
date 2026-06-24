@@ -3,6 +3,6 @@ set -euo pipefail
 
 mkdir -p build out
 
-ghc test/tasty/test.hs -o build/tasty
+ghc -itest/tasty test/tasty/Main.hs -o build/tasty
 
 ./build/tasty > out/report_tasty.tap
