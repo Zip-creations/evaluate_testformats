@@ -1,21 +1,31 @@
 <testsuites name="hspec-tests">
-    <testsuite name="BasicTests" package="BasicTests" id="0" time="0.000657518"
-        timestamp="2026-06-24T12:34:07.309747138Z" hostname="localhost" tests="4" failures="1"
+    <testsuite name="Test1" package="Test1" id="0" time="0.000064542"
+        timestamp="2026-06-24T12:58:41.260597271Z" hostname="localhost" tests="4" failures="1"
         errors="0" skipped="1">
         <properties />
-        <testcase file="test/hspec/test.hs" line="29" name="test_same_name" classname="BasicTests"
-            time="0.000269207" />
-        <testcase file="test/hspec/test.hs" line="27" name="test_skip" classname="BasicTests"
-            time="0.000028536">
-            <skipped>test/hspec/test.hs:27:7
+        <testcase file="test/hspec/Test1.hs" line="21" name="test_same_name" classname="Test1"
+            time="0.000006772" />
+        <testcase file="test/hspec/Test1.hs" line="20" name="test_skip" classname="Test1"
+            time="0.000016983">
+            <skipped>test/hspec/Test1.hs:20:7
                 this test will be skipped, to show how skipped tests are handled</skipped>
         </testcase>
-        <testcase file="test/hspec/test.hs" line="23" name="test_pos" classname="BasicTests"
-            time="0.000056831">
-            <failure type="error">Falsified (after 1 test):
+        <testcase file="test/hspec/Test1.hs" line="18" name="test_pos" classname="Test1"
+            time="0.000022763">
+            <failure type="error">test/hspec/Test1.hs:18:12
+
+                expected: "False"
+                but got: "True"
 </failure>
         </testcase>
-        <testcase file="test/hspec/test.hs" line="20" name="test_neg" classname="BasicTests"
-            time="0.000302944" />
+        <testcase file="test/hspec/Test1.hs" line="15" name="test_neg" classname="Test1"
+            time="0.000018024" />
+    </testsuite>
+    <testsuite name="Test2" package="Test2" id="1" time="0.000002785"
+        timestamp="2026-06-24T12:58:41.260597271Z" hostname="localhost" tests="1" failures="0"
+        errors="0" skipped="0">
+        <properties />
+        <testcase file="test/hspec/Test2.hs" line="8" name="test_same_name" classname="Test2"
+            time="0.000002785" />
     </testsuite>
 </testsuites>
