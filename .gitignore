@@ -19,3 +19,4 @@ build/
 
 #php
 vendor/
+test/codeception/tests/Support/_generated/
