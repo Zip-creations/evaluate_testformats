@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<e:events xmlns="https://schemas.opentest4j.org/reporting/core/0.2.0" xmlns:e="https://schemas.opentest4j.org/reporting/events/0.2.0" xmlns:php="https://schema.phpunit.de/otr/php/0.1.0" xmlns:phpunit="https://schema.phpunit.de/otr/phpunit/0.2.0">
+ <infrastructure>
+  <hostName>LaptopRuben</hostName>
+  <userName>ruben</userName>
+  <operatingSystem>Linux LaptopRuben 6.18.33.1-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Fri Jun  5 01:12:21 UTC 2026 x86_64</operatingSystem>
+  <php:phpVersion>8.4.22</php:phpVersion>
+  <php:threadModel>NTS</php:threadModel>
+ </infrastructure>
+ <e:started id="1" name="CLI Arguments" time="2026-06-25T14:11:44.985641Z"/>
+ <e:started id="2" parentId="1" name="BasicTest" time="2026-06-25T14:11:44.985745Z">
+  <metadata>
+   <phpunit:testDox prettifiedClassName="Basic"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php">
+    <filePosition line="5"/>
+   </fileSource>
+   <phpunit:classSource className="BasicTest"/>
+  </sources>
+ </e:started>
+ <e:started id="3" parentId="2" name="test_neg" time="2026-06-25T14:11:44.985961Z">
+  <metadata>
+   <phpunit:testDox prettifiedMethodName="Neg"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php">
+    <filePosition line="7"/>
+   </fileSource>
+   <phpunit:methodSource className="BasicTest" methodName="test_neg"/>
+  </sources>
+ </e:started>
+ <e:finished id="3" time="2026-06-25T14:11:44.986266Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.000283387" memoryUsage="16275136" peakMemoryUsage="16311608" userCpuTime="0.000269000" systemCpuTime="0.000000000" cpuTime="0.000269000"/>
+   <phpunit:assertions count="1"/>
+  </attachments>
+  <result status="SUCCESSFUL"/>
+ </e:finished>
+ <e:started id="4" parentId="2" name="test_pos" time="2026-06-25T14:11:44.986392Z">
+  <metadata>
+   <phpunit:testDox prettifiedMethodName="Pos"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php">
+    <filePosition line="12"/>
+   </fileSource>
+   <phpunit:methodSource className="BasicTest" methodName="test_pos"/>
+  </sources>
+ </e:started>
+ <e:finished id="4" time="2026-06-25T14:11:44.987606Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.001185333" memoryUsage="16415616" peakMemoryUsage="16510424" userCpuTime="0.001126000" systemCpuTime="0.000000000" cpuTime="0.001126000"/>
+   <phpunit:assertions count="1"/>
+  </attachments>
+  <result status="FAILED">
+   <reason>Failed asserting that false is true.</reason>
+   <phpunit:throwable type="PHPUnit\Framework\ExpectationFailedException" assertionError="true"><![CDATA[Failed asserting that false is true.
+
+/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php:14
+]]></phpunit:throwable>
+  </result>
+ </e:finished>
+ <e:started id="5" parentId="2" name="test_skip" time="2026-06-25T14:11:44.987719Z">
+  <metadata>
+   <phpunit:testDox prettifiedMethodName="Skip"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php">
+    <filePosition line="17"/>
+   </fileSource>
+   <phpunit:methodSource className="BasicTest" methodName="test_skip"/>
+  </sources>
+ </e:started>
+ <e:finished id="5" time="2026-06-25T14:11:44.987920Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.000181943" memoryUsage="16413400" peakMemoryUsage="16449312" userCpuTime="0.000173000" systemCpuTime="0.000000000" cpuTime="0.000173000"/>
+   <phpunit:assertions count="0"/>
+  </attachments>
+  <result status="SKIPPED">
+   <reason>this test will be skipped, to show how skipped tests are handled</reason>
+  </result>
+ </e:finished>
+ <e:started id="6" parentId="2" name="test_same_name" time="2026-06-25T14:11:44.988019Z">
+  <metadata>
+   <phpunit:testDox prettifiedMethodName="Same name"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php">
+    <filePosition line="26"/>
+   </fileSource>
+   <phpunit:methodSource className="BasicTest" methodName="test_same_name"/>
+  </sources>
+ </e:started>
+ <e:finished id="6" time="2026-06-25T14:11:44.988190Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.000151691" memoryUsage="16402664" peakMemoryUsage="16439600" userCpuTime="0.000144000" systemCpuTime="0.000000000" cpuTime="0.000144000"/>
+   <phpunit:assertions count="1"/>
+  </attachments>
+  <result status="SUCCESSFUL"/>
+ </e:finished>
+ <e:finished id="2" time="2026-06-25T14:11:44.988254Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.002505483" memoryUsage="16400176" peakMemoryUsage="16439600" userCpuTime="0.002382000" systemCpuTime="0.000000000" cpuTime="0.002382000"/>
+  </attachments>
+ </e:finished>
+ <e:started id="7" parentId="1" name="BasicTest2" time="2026-06-25T14:11:44.988305Z">
+  <metadata>
+   <phpunit:testDox prettifiedClassName="Basic Test2"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test2.php">
+    <filePosition line="5"/>
+   </fileSource>
+   <phpunit:classSource className="BasicTest2"/>
+  </sources>
+ </e:started>
+ <e:started id="8" parentId="7" name="test_same_name" time="2026-06-25T14:11:44.988439Z">
+  <metadata>
+   <phpunit:testDox prettifiedMethodName="Same name"/>
+  </metadata>
+  <sources>
+   <fileSource path="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test2.php">
+    <filePosition line="7"/>
+   </fileSource>
+   <phpunit:methodSource className="BasicTest2" methodName="test_same_name"/>
+  </sources>
+ </e:started>
+ <e:finished id="8" time="2026-06-25T14:11:44.988625Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.000145673" memoryUsage="16402448" peakMemoryUsage="16439376" userCpuTime="0.000085000" systemCpuTime="0.000053000" cpuTime="0.000138000"/>
+   <phpunit:assertions count="1"/>
+  </attachments>
+  <result status="SUCCESSFUL"/>
+ </e:finished>
+ <e:finished id="7" time="2026-06-25T14:11:44.988693Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.000386696" memoryUsage="16399952" peakMemoryUsage="16439376" userCpuTime="0.000225000" systemCpuTime="0.000142000" cpuTime="0.000367000"/>
+  </attachments>
+ </e:finished>
+ <e:finished id="1" time="2026-06-25T14:11:44.988719Z">
+  <attachments>
+   <phpunit:resourceUsage time="0.003101686" memoryUsage="16398160" peakMemoryUsage="16439376" userCpuTime="0.002791000" systemCpuTime="0.000158000" cpuTime="0.002949000"/>
+  </attachments>
+ </e:finished>
+</e:events>

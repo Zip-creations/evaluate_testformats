@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CLI Arguments" tests="5" assertions="4" errors="0" failures="1" skipped="1" time="0.004101">
+    <testsuite name="BasicTest" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php" tests="4" assertions="3" errors="0" failures="1" skipped="1" time="0.003913">
+      <testcase name="test_neg" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php" line="7" class="BasicTest" classname="BasicTest" assertions="1" time="0.000645"/>
+      <testcase name="test_pos" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php" line="12" class="BasicTest" classname="BasicTest" assertions="1" time="0.002696">
+        <failure type="PHPUnit\Framework\ExpectationFailedException">BasicTest::test_pos
+Failed asserting that false is true.
+
+/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php:14</failure>
+      </testcase>
+      <testcase name="test_skip" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php" line="17" class="BasicTest" classname="BasicTest" assertions="0" time="0.000400">
+        <skipped/>
+      </testcase>
+      <testcase name="test_same_name" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test.php" line="26" class="BasicTest" classname="BasicTest" assertions="1" time="0.000172"/>
+    </testsuite>
+    <testsuite name="BasicTest2" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test2.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.000188">
+      <testcase name="test_same_name" file="/home/ruben/dev/evaluate_testformats/src/php/src/test/phpunit/test2.php" line="7" class="BasicTest2" classname="BasicTest2" assertions="1" time="0.000188"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
