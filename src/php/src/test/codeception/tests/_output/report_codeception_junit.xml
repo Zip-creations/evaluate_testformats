@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Tests.Unit" tests="5" assertions="3" errors="0" failures="1" skipped="1" useless="0" time="0.006733">
+    <testcase name="test_same_name" class="BasicTest2" file="/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/test/codeception/tests/Unit/2Test.php" time="0.003016" assertions="1"/>
+    <testcase name="test_neg" class="BasicTest" file="/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/test/codeception/tests/Unit/Test.php" time="0.000252" assertions="1"/>
+    <testcase name="test_pos" class="BasicTest" file="/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/test/codeception/tests/Unit/Test.php" time="0.003090" assertions="0">
+      <failure type="PHPUnit\Framework\ExpectationFailedException">BasicTest::testTest_pos
+Failed asserting that false is true.
+
+/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/test/codeception/tests/Unit/Test.php:14
+/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/vendor/bin/codecept:119</failure>
+    </testcase>
+    <testcase name="test_skip" class="BasicTest" file="/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/test/codeception/tests/Unit/Test.php" time="0.000217" assertions="0">
+      <skipped/>
+    </testcase>
+    <testcase name="test_same_name" class="BasicTest" file="/home/ruben/dev/bachelor/project/testformat_evaluation/src/php/src/test/codeception/tests/Unit/Test.php" time="0.000157" assertions="1"/>
+  </testsuite>
+</testsuites>

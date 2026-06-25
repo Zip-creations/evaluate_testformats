@@ -16,3 +16,6 @@ build/
 #haskell
 *.hi
 *.o
+
+#php
+vendor/
