@@ -4,6 +4,7 @@ plugins {
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-reporting:1.11.4'
 }
 
 test {
@@ -13,4 +14,7 @@ test {
         junitXml.required = true
         html.required = true
     }
+
+    systemProperty 'junit.platform.reporting.open.xml.enabled', 'true'
+    systemProperty 'junit.platform.reporting.output.dir', "$buildDir/test-results/test-otr"
 }
