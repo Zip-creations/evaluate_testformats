@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="default">
+  <testsuite name="Basic tests" file="features/basic.feature" tests="4" skipped="0" failures="2" errors="0" time="0.006">
+    <testcase name="test_neg" classname="Basic tests" status="passed" time="0.004" file="features/basic.feature" line="4"></testcase>
+    <testcase name="test_pos" classname="Basic tests" status="failed" time="0.000" file="features/basic.feature" line="7">
+      <failure message="Then the value should be false but expected true: Expected false to be true. (Exception)"></failure>
+    </testcase>
+    <testcase name="test_skip" classname="Basic tests" status="failed" time="0.000" file="features/basic.feature" line="10">
+      <failure message="Then this scenario is skipped: Fatal error: Class &quot;Behat\Testwork\Tester\Exception\PendingException&quot; not found (Behat\Testwork\Call\Exception\FatalThrowableError)"></failure>
+    </testcase>
+    <testcase name="test_same_name" classname="Basic tests" status="passed" time="0.000" file="features/basic.feature" line="13"></testcase>
+  </testsuite>
+  <testsuite name="Basic tests" file="features/basic2.feature" tests="1" skipped="0" failures="0" errors="0" time="0.000">
+    <testcase name="test_same_name" classname="Basic tests" status="passed" time="0.000" file="features/basic2.feature" line="4"></testcase>
+  </testsuite>
+</testsuites>

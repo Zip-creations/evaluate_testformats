@@ -1,0 +1,92 @@
+{
+    "tests": 5,
+    "skipped": 0,
+    "failed": 2,
+    "pending": 0,
+    "undefined": 0,
+    "time": 0.011,
+    "suites": [
+        {
+            "name": "default",
+            "tests": 5,
+            "skipped": 0,
+            "failed": 2,
+            "pending": 0,
+            "undefined": 0,
+            "time": 0.01,
+            "features": [
+                {
+                    "name": "Basic tests",
+                    "file": "features/basic.feature",
+                    "tests": 4,
+                    "skipped": 0,
+                    "failed": 2,
+                    "pending": 0,
+                    "undefined": 0,
+                    "time": 0.006,
+                    "scenarios": [
+                        {
+                            "name": "test_neg",
+                            "time": 0.003,
+                            "status": "passed",
+                            "file": "features/basic.feature",
+                            "line": 4
+                        },
+                        {
+                            "name": "test_pos",
+                            "time": 0,
+                            "status": "failed",
+                            "file": "features/basic.feature",
+                            "line": 7,
+                            "failures": [
+                                {
+                                    "message": "Then the value should be false but expected true: Expected false to be true. (Exception)",
+                                    "type": "failed"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "test_skip",
+                            "time": 0,
+                            "status": "failed",
+                            "file": "features/basic.feature",
+                            "line": 10,
+                            "failures": [
+                                {
+                                    "message": "Then this scenario is skipped: Fatal error: Class \"Behat\\Testwork\\Tester\\Exception\\PendingException\" not found (Behat\\Testwork\\Call\\Exception\\FatalThrowableError)",
+                                    "type": "failed"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "test_same_name",
+                            "time": 0,
+                            "status": "passed",
+                            "file": "features/basic.feature",
+                            "line": 13
+                        }
+                    ]
+                },
+                {
+                    "name": "Basic tests",
+                    "file": "features/basic2.feature",
+                    "tests": 1,
+                    "skipped": 0,
+                    "failed": 0,
+                    "pending": 0,
+                    "undefined": 0,
+                    "time": 0,
+                    "scenarios": [
+                        {
+                            "name": "test_same_name",
+                            "time": 0,
+                            "status": "passed",
+                            "file": "features/basic2.feature",
+                            "line": 4
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
