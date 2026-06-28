@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="catch2_tests" errors="0" failures="1" skipped="0" tests="3" hostname="tbd" time="0.000" timestamp="2026-06-23T20:50:25Z">
+  <testsuite name="catch2_tests" errors="0" failures="2" skipped="1" tests="5" hostname="tbd" time="0.000" timestamp="2026-06-28T18:14:41Z">
     <properties>
-      <property name="random-seed" value="4080279736"/>
+      <property name="random-seed" value="3774142356"/>
     </properties>
     <testcase classname="catch2_tests.global" name="test_neg" time="0.000" status="run"/>
+    <testcase classname="catch2_tests.global" name="test_same_name" time="0.000" status="run">
+      <failure message="false" type="REQUIRE">
+FAILED:
+  REQUIRE( false )
+at ./test/catch2/test2.cpp:4
+      </failure>
+    </testcase>
+    <testcase classname="catch2_tests.global" name="test_skip" time="0.000" status="run">
+      <skipped type="SKIP">
+SKIPPED
+this test will be skipped, to show how skipped tests are handled
+at ./test/catch2/test.cpp:12
+      </skipped>
+    </testcase>
     <testcase classname="catch2_tests.global" name="test_same_name" time="0.000" status="run"/>
     <testcase classname="catch2_tests.global" name="test_pos" time="0.000" status="run">
       <failure message="false" type="REQUIRE">
