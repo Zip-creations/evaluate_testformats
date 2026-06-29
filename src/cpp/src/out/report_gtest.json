@@ -1,9 +1,9 @@
 {
-  "tests": 4,
+  "tests": 5,
   "failures": 1,
   "disabled": 0,
   "errors": 0,
-  "timestamp": "2026-06-23T22:50:33Z",
+  "timestamp": "2026-06-29T22:44:47Z",
   "time": "0s",
   "name": "AllTests",
   "testsuites": [
@@ -13,7 +13,7 @@
       "failures": 1,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2026-06-23T22:50:33Z",
+      "timestamp": "2026-06-29T22:44:47Z",
       "time": "0s",
       "testsuite": [
         {
@@ -22,7 +22,7 @@
           "line": 3,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2026-06-23T22:50:33Z",
+          "timestamp": "2026-06-29T22:44:47Z",
           "time": "0s",
           "classname": "BasicTests"
         },
@@ -32,7 +32,7 @@
           "line": 7,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2026-06-23T22:50:33Z",
+          "timestamp": "2026-06-29T22:44:47Z",
           "time": "0s",
           "classname": "BasicTests",
           "failures": [
@@ -48,7 +48,7 @@
           "line": 11,
           "status": "RUN",
           "result": "SKIPPED",
-          "timestamp": "2026-06-23T22:50:33Z",
+          "timestamp": "2026-06-29T22:44:47Z",
           "time": "0s",
           "classname": "BasicTests",
           "skipped": [
@@ -59,13 +59,34 @@
         },
         {
           "name": "test_same_name",
+          "file": ".\/test\/gtest\/test.cpp",
+          "line": 16,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2026-06-29T22:44:47Z",
+          "time": "0s",
+          "classname": "BasicTests"
+        }
+      ]
+    },
+    {
+      "name": "BasicTests2",
+      "tests": 1,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2026-06-29T22:44:47Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "test_same_name",
           "file": ".\/test\/gtest\/test2.cpp",
           "line": 4,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2026-06-23T22:50:33Z",
+          "timestamp": "2026-06-29T22:44:47Z",
           "time": "0s",
-          "classname": "BasicTests"
+          "classname": "BasicTests2"
         }
       ]
     }
